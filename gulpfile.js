@@ -144,7 +144,7 @@ gulp.task("protractor:ci", ["browser-sync:ci"], function() {
       });
 });
 
-gulp.task("test:ci", function() {
+gulp.task("test", function() {
     runSequence("lint:ci", "clean", "build", ["karma:ci", "protractor:ci"]);
 });
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "./node_modules/protractor/bin/webdriver-manager update",
-    "test": "gulp test:ci"
+    "test": "gulp test"
   },
   "author": "Brad Berger <brad@bradb.net>",
   "license": "MPL-2.0",
@@ -33,6 +33,8 @@
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.10",
     "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.2",
+    "karma-coveralls": "^1.1.2",
     "karma-firefox-launcher": "^0.1.6",
     "karma-jasmine": "^0.3.6",
     "material-design-icons": "^2.0.0",
